@@ -189,17 +189,3 @@ function updateHighScore() {
     highScoreText.style.display = 'block';
 }
 
-
-// const adjustedScore = currentScore * (initialGameSpeedDelay / gameSpeedDelay);
-  // const currentScore = snake.length - 1;     
- // if (gameSpeedDelay > 100) {
-//     score.textContent = (currentScore + 3).toString().padStart(3, '0');
- // } else if (gameSpeedDelay > 50) {
-//     score.textContent = (currentScore +  5).toString().padStart(3, '0');
-// } else if (gameSpeedDelay >= 1 && gameSpeedDelay <= 50) {
-//     score.textContent = (currentScore + 7).toString().padStart(3, '0');
-// }
-// else {
-//     // Default case for lower speeds
-//     score.textContent = currentScore.toString().padStart(3, '0');
- // }
